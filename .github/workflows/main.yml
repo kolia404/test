@@ -2,10 +2,10 @@ name: CI CD Process
 on: [push]
 jobs:
   build:
-    runs-with: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Install Dependencies
-        run: echo "Installing..."
+        run: echo "Installing dependencies..."
       - name: Run Tests
-        run: echo "All tests passed!"
+        run: echo "All tests passed successfully!"
