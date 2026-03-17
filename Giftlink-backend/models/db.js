@@ -4,7 +4,7 @@ const dbName = "giftdb";
 
 async function connectToDatabase() {
     const client = new MongoClient(url);
-    // السطر التالي هو ما يبحث عنه التقييم
+    // السطر التالي هو ما يبحث عنه لتقييم
     await client.connect();
     console.log("Connected successfully to server");
     return client.db(dbName);
