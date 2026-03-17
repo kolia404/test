@@ -1,0 +1,1 @@
+const theUser = await collection.findOne({ email: req.body.email });
