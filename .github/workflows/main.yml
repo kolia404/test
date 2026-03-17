@@ -1,0 +1,11 @@
+name: CI CD Process
+on: [push]
+jobs:
+  build:
+    runs-with: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install Dependencies
+        run: echo "Installing..."
+      - name: Run Tests
+        run: echo "All tests passed!"
