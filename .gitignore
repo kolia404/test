@@ -1,0 +1,14 @@
+# === Node / Backend ===
+node_modules/
+.env
+*.log
+
+# === Frontend (React) ===
+giftlink-frontend/node_modules/
+giftlink-frontend/build/
+giftlink-frontend/.env
+
+# === OS / Editor ===
+.DS_Store
+Thumbs.db
+.vscode/
